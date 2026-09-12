@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="290" viewBox="0 0 1280 290" role="img" aria-labelledby="title desc">
+  <title id="title">System Initialized — Daniell Cardoso</title>
+  <desc id="desc">Banner azul para o perfil profissional de Daniell Cardoso no GitHub</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.52" stop-color="#0B2A4A"/>
+      <stop offset="1" stop-color="#0969DA"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#A5D6FF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#58A6FF" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="290" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="290" rx="16" fill="url(#grid)"/>
+  <circle cx="1115" cy="65" r="155" fill="#58A6FF" opacity=".08"/>
+  <circle cx="1185" cy="240" r="115" fill="#0D1117" opacity=".2"/>
+  <path d="M0 238C210 194 362 278 590 232s392-27 690 18v40H0Z" fill="#071426" opacity=".78"/>
+  <g transform="translate(90 74)">
+    <text x="0" y="54" fill="url(#text)" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" letter-spacing="2" filter="url(#glow)">SYSTEM INITIALIZED</text>
+    <text x="2" y="104" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Daniell Cardoso // Software Engineering Student</text>
+    <text x="2" y="146" fill="#79C0FF" font-family="Consolas, Menlo, monospace" font-size="20">&gt; backend journey: loading...</text>
+  </g>
+  <g transform="translate(1057 98)" fill="none" stroke="#79C0FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="m0 39 31-31 31 31M62 83l31-31 31 31"/>
+    <path d="M31 8v76M93 52v76"/>
+  </g>
+</svg>
+
